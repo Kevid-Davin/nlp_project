@@ -1,0 +1,1396 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link href="https://github.githubassets.com" rel="dns-prefetch"/>
+<link href="https://avatars0.githubusercontent.com" rel="dns-prefetch"/>
+<link href="https://avatars1.githubusercontent.com" rel="dns-prefetch"/>
+<link href="https://avatars2.githubusercontent.com" rel="dns-prefetch"/>
+<link href="https://avatars3.githubusercontent.com" rel="dns-prefetch"/>
+<link href="https://github-cloud.s3.amazonaws.com" rel="dns-prefetch"/>
+<link href="https://user-images.githubusercontent.com/" rel="dns-prefetch"/>
+<link crossorigin="anonymous" href="https://github.githubassets.com/assets/frameworks-9b5314213e37056ed87b0418056c4f2c.css" integrity="sha512-7mtunHqp/Bw0ND9akjJME8XCh0WPm3HAXOSeX7skL0qGAhpdfzkQvYcujYcwNPTpWKeKMFUGZGtvnEkcczFgwQ==" media="all" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://github.githubassets.com/assets/site-4e9f27fa33341743f730ae7b0e33eff5.css" integrity="sha512-CmoegizWCUR1jC94Y2eukVQIFxJ9GxYerz9q7dBwImLlx8ODwYkXAMIhCfTnA45Ep6++rcO/ZtKVLvFBM8dapA==" media="all" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://github.githubassets.com/assets/github-f07e60f7e20ba26efee2908fc2297f76.css" integrity="sha512-buKrCr/U0ONf5rzeRzWnv1EyeTW4RjXcppt74M0ghnwsD4Tsu0LsD6XIIGhvpB4eJKk3n8wyJOzWqV7jwNEhAA==" media="all" rel="stylesheet"/>
+<meta content="width=device-width" name="viewport"/>
+<title>GitHub - Diggsey/aoc2018: Rust solutions to the Advent Of Code 2018</title>
+<meta content="Rust solutions to the Advent Of Code 2018. Contribute to Diggsey/aoc2018 development by creating an account on GitHub." name="description"/>
+<link href="/opensearch.xml" rel="search" title="GitHub" type="application/opensearchdescription+xml"/>
+<link href="https://github.com/fluidicon.png" rel="fluid-icon" title="GitHub"/>
+<meta content="1401488693436528" property="fb:app_id"/>
+<meta content="https://avatars3.githubusercontent.com/u/451321?s=400&amp;v=4" name="twitter:image:src"/><meta content="@github" name="twitter:site"/><meta content="summary" name="twitter:card"/><meta content="Diggsey/aoc2018" name="twitter:title"/><meta content="Rust solutions to the Advent Of Code 2018. Contribute to Diggsey/aoc2018 development by creating an account on GitHub." name="twitter:description"/>
+<meta content="https://avatars3.githubusercontent.com/u/451321?s=400&amp;v=4" property="og:image"/><meta content="GitHub" property="og:site_name"/><meta content="object" property="og:type"/><meta content="Diggsey/aoc2018" property="og:title"/><meta content="https://github.com/Diggsey/aoc2018" property="og:url"/><meta content="Rust solutions to the Advent Of Code 2018. Contribute to Diggsey/aoc2018 development by creating an account on GitHub." property="og:description"/>
+<link href="https://github.githubassets.com/" rel="assets"/>
+<meta content="FBCB:237E:58C1CCF:953E79A:5DEFDEE5" data-pjax-transient="" name="request-id"/>
+<meta data-pjax-transient="" name="selected-link" value="repo_source"/>
+<meta content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU" name="google-site-verification"/>
+<meta content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA" name="google-site-verification"/>
+<meta content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc" name="google-site-verification"/>
+<meta content="collector.githubapp.com" name="octolytics-host"/><meta content="github" name="octolytics-app-id"/><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url"/><meta content="FBCB:237E:58C1CCF:953E79A:5DEFDEE5" name="octolytics-dimension-request_id"/><meta content="iad" name="octolytics-dimension-region_edge"/><meta content="iad" name="octolytics-dimension-region_render"/><meta class="js-octo-ga-id" content="" name="octolytics-dimension-ga_id"/><meta content="3429732494980669157" name="octolytics-dimension-visitor_id"/>
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" name="analytics-location"/>
+<meta content="UA-3769691-2" name="google-analytics"/>
+<meta class="js-ga-set" content="Logged Out" name="dimension1"/>
+<meta content="github.com" name="hostname"/>
+<meta content="" name="user-login"/>
+<meta content="github.com" name="expected-hostname"/>
+<meta content="OTFjNDU5ZmU0ZTYzOWQwMDJkN2M0YTdhZDNjZTNkNTY1ODY4ODE5NTU2MDRkNWM5YzNkODczOTdmZTE0Yzk2Mnx7InJlbW90ZV9hZGRyZXNzIjoiOTcuMTA1LjE5LjU4IiwicmVxdWVzdF9pZCI6IkZCQ0I6MjM3RTo1OEMxQ0NGOjk1M0U3OUE6NURFRkRFRTUiLCJ0aW1lc3RhbXAiOjE1NzYwMDEyNTQsImhvc3QiOiJnaXRodWIuY29tIn0=" name="js-proxy-site-detection-payload"/>
+<meta content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS" name="enabled-features"/>
+<meta content="21dee09abe7a4987842b0cd43a75e21e4ccae797" name="html-safe-nonce"/>
+<meta content="c75b47f31a9b8aa232a84779d7d6d113" http-equiv="x-pjax-version"/>
+<link href="https://github.com/Diggsey/aoc2018/commits/master.atom" rel="alternate" title="Recent Commits to aoc2018:master" type="application/atom+xml"/>
+<meta content="github.com/Diggsey/aoc2018 git https://github.com/Diggsey/aoc2018.git" name="go-import"/>
+<meta content="451321" name="octolytics-dimension-user_id"/><meta content="Diggsey" name="octolytics-dimension-user_login"/><meta content="163079658" name="octolytics-dimension-repository_id"/><meta content="Diggsey/aoc2018" name="octolytics-dimension-repository_nwo"/><meta content="true" name="octolytics-dimension-repository_public"/><meta content="false" name="octolytics-dimension-repository_is_fork"/><meta content="163079658" name="octolytics-dimension-repository_network_root_id"/><meta content="Diggsey/aoc2018" name="octolytics-dimension-repository_network_root_nwo"/><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown"/>
+<link data-pjax-transient="" href="https://github.com/Diggsey/aoc2018" rel="canonical"/>
+<meta content="https://api.github.com/_private/browser/stats" name="browser-stats-url"/>
+<meta content="https://api.github.com/_private/browser/errors" name="browser-errors-url"/>
+<link color="#000000" href="https://github.githubassets.com/pinned-octocat.svg" rel="mask-icon"/>
+<link class="js-site-favicon" href="https://github.githubassets.com/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="#1e2327" name="theme-color"/>
+<link crossorigin="use-credentials" href="/manifest.json" rel="manifest"/>
+</head>
+<body class="logged-out env-production min-width-lg">
+<div class="position-relative js-header-wrapper">
+<a class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content" href="#start-of-content" tabindex="1">Skip to content</a>
+<span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+<span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+</span>
+<header class="Header-old header-logged-out position-relative f4 py-2" role="banner">
+<div class="container-lg d-flex px-3">
+<div class="d-flex flex-justify-between flex-items-center">
+<a aria-label="Homepage" class="mr-4" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark" href="https://github.com/">
+<svg aria-hidden="true" class="octicon octicon-mark-github text-white" height="32" version="1.1" viewbox="0 0 16 16" width="32"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+<div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
+<div class="d-none">
+<button aria-expanded="false" aria-label="Toggle navigation" class="btn-link js-details-target" type="button">
+<svg aria-hidden="true" class="octicon octicon-x text-gray" height="24" version="1.1" viewbox="0 0 12 16" width="18"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+<nav aria-label="Global" class="mt-0">
+<ul class="d-flex list-style-none">
+<li class="mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center">
+<details class="HeaderMenu-details details-overlay details-reset width-full">
+<summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-inline-block">
+                    Why GitHub?
+                    <svg class="icon-chevon-down-mktg position-relative" fill="none" viewbox="0 0 14 8" x="0px" xml:space="preserve" y="0px">
+<path d="M1,1l6.2,6L13,1"></path>
+</svg>
+</summary>
+<div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 p-4 left-n4 position-absolute">
+<a class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features" href="/features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a>
+<ul class="list-style-none f5 pb-3">
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review" href="/features/code-review/">Code review</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management" href="/features/project-management/">Project management</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations" href="/features/integrations">Integrations</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions" href="/features/actions">Actions</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages" href="/features/packages">Packages</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security" href="/features/security">Security</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management" href="/features#team-management">Team management</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding" href="/features#social-coding">Social coding</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation" href="/features#documentation">Documentation</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting" href="/features#code-hosting">Code hosting</a></li>
+</ul>
+<ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories" href="/customer-stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security" href="/security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+</ul>
+</div>
+</details>
+</li>
+<li class="mr-3 mr-lg-3">
+<a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise" href="/enterprise">Enterprise</a>
+</li>
+<li class="mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center">
+<details class="HeaderMenu-details details-overlay details-reset width-full">
+<summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-inline-block">
+                    Explore
+                    <svg class="icon-chevon-down-mktg position-relative" fill="none" viewbox="0 0 14 8" x="0px" xml:space="preserve" y="0px">
+<path d="M1,1l6.2,6L13,1"></path>
+</svg>
+</summary>
+<div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 p-4 left-n4 position-absolute">
+<ul class="list-style-none mb-3">
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore" href="/explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+</ul>
+<h4 class="text-gray-light text-normal text-mono f5 mb-2 border-top pt-3">Learn &amp; contribute</h4>
+<ul class="list-style-none mb-3">
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics" href="/topics">Topics</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections" href="/collections">Collections</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending" href="/trending">Trending</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab" href="https://lab.github.com/">Learning Lab</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides" href="https://opensource.guide">Open source guides</a></li>
+</ul>
+<h4 class="text-gray-light text-normal text-mono f5 mb-2 border-top pt-3">Connect with others</h4>
+<ul class="list-style-none mb-0">
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events" href="https://github.com/events">Events</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum" href="https://github.community">Community forum</a></li>
+<li class="edge-item-fix"><a class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education" href="https://education.github.com">GitHub Education</a></li>
+</ul>
+</div>
+</details>
+</li>
+<li class="mr-3 mr-lg-3">
+<a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace" href="/marketplace">Marketplace</a>
+</li>
+<li class="mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center">
+<details class="HeaderMenu-details details-overlay details-reset width-full">
+<summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-inline-block">
+                    Pricing
+                    <svg class="icon-chevon-down-mktg position-relative" fill="none" viewbox="0 0 14 8" x="0px" xml:space="preserve" y="0px">
+<path d="M1,1l6.2,6L13,1"></path>
+</svg>
+</summary>
+<div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-4 left-n4 position-absolute">
+<a class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing" href="/pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a>
+<ul class="list-style-none mb-3">
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans" href="/pricing#feature-comparison">Compare plans</a></li>
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales" href="https://enterprise.github.com/contact">Contact Sales</a></li>
+</ul>
+<ul class="list-style-none mb-0 border-top pt-3">
+<li class="edge-item-fix"><a class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits" href="/nonprofit">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+<li class="edge-item-fix"><a class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Education" href="https://education.github.com">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+</ul>
+</div>
+</details>
+</li>
+</ul>
+</nav>
+<div class="d-flex flex-items-center px-0 text-center text-left">
+<div class="d-lg-flex">
+<div aria-expanded="false" aria-haspopup="listbox" aria-label="Search or jump to" aria-owns="jump-to-results" class="header-search mr-3 scoped-search site-scoped-search js-site-search position-relative js-jump-to" role="combobox">
+<div class="position-relative">
+<!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="/Diggsey/aoc2018/search" aria-label="Site" class="js-site-search-form" data-scope-id="163079658" data-scope-type="Repository" data-scoped-search-url="/Diggsey/aoc2018/search" data-unscoped-search-url="/search" method="get" role="search"><input name="utf8" type="hidden" value="✓"/>
+<label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+<input aria-autocomplete="list" aria-controls="jump-to-results" aria-label="Search" autocapitalize="off" autocomplete="off" class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable" data-hotkey="s,/" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=EEr+XgfaeU+0vSxXk4vNy8dXEbS94fYd7iBQSxmojZHqaVH4C5FqMLve8u8pYGdOcTJLriuB8RUDm6TE0jyCSw==" data-scoped-placeholder="Search" data-unscoped-placeholder="Search GitHub" name="q" placeholder="Search" spellcheck="false" type="text" value=""/>
+<input class="js-site-search-type-field" name="type" type="hidden"/>
+<img alt="" class="mr-2 header-search-key-slash" src="https://github.githubassets.com/images/search-key-slash.svg"/>
+<div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+<ul class="d-none js-jump-to-suggestions-template-container">
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+<a class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" tabindex="-1">
+<div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+<svg aria-label="Repository" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" height="16" role="img" title="Repository" version="1.1" viewbox="0 0 12 16" width="16"><path d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z" fill-rule="evenodd"></path></svg>
+<svg aria-label="Project" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" height="16" role="img" title="Project" version="1.1" viewbox="0 0 15 16" width="16"><path d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z" fill-rule="evenodd"></path></svg>
+<svg aria-label="Search" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" height="16" role="img" title="Search" version="1.1" viewbox="0 0 16 16" width="16"><path d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z" fill-rule="evenodd"></path></svg>
+</div>
+<img alt="" aria-label="Team" class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" height="28" src="" width="28"/>
+<div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+</div>
+<div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+<span aria-label="in this repository" class="js-jump-to-badge-search-text-default d-none">
+        In this repository
+      </span>
+<span aria-label="in all of GitHub" class="js-jump-to-badge-search-text-global d-none">
+        All GitHub
+      </span>
+<span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+</div>
+<div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+</div>
+</a>
+</li>
+</ul>
+<ul class="d-none js-jump-to-no-results-template-container">
+<li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+<span class="text-gray">No suggested jump to results</span>
+</li>
+</ul>
+<ul class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container" id="jump-to-results" role="listbox">
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+<a class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" tabindex="-1">
+<div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+<svg aria-label="Repository" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" height="16" role="img" title="Repository" version="1.1" viewbox="0 0 12 16" width="16"><path d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z" fill-rule="evenodd"></path></svg>
+<svg aria-label="Project" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" height="16" role="img" title="Project" version="1.1" viewbox="0 0 15 16" width="16"><path d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z" fill-rule="evenodd"></path></svg>
+<svg aria-label="Search" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" height="16" role="img" title="Search" version="1.1" viewbox="0 0 16 16" width="16"><path d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z" fill-rule="evenodd"></path></svg>
+</div>
+<img alt="" aria-label="Team" class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" height="28" src="" width="28"/>
+<div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+</div>
+<div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+<span aria-label="in this repository" class="js-jump-to-badge-search-text-default d-none">
+        In this repository
+      </span>
+<span aria-label="in all of GitHub" class="js-jump-to-badge-search-text-global d-none">
+        All GitHub
+      </span>
+<span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+</div>
+<div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+</div>
+</a>
+</li>
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+<a class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" tabindex="-1">
+<div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+<svg aria-label="Repository" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" height="16" role="img" title="Repository" version="1.1" viewbox="0 0 12 16" width="16"><path d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z" fill-rule="evenodd"></path></svg>
+<svg aria-label="Project" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" height="16" role="img" title="Project" version="1.1" viewbox="0 0 15 16" width="16"><path d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z" fill-rule="evenodd"></path></svg>
+<svg aria-label="Search" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" height="16" role="img" title="Search" version="1.1" viewbox="0 0 16 16" width="16"><path d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z" fill-rule="evenodd"></path></svg>
+</div>
+<img alt="" aria-label="Team" class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" height="28" src="" width="28"/>
+<div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+</div>
+<div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+<span aria-label="in this repository" class="js-jump-to-badge-search-text-default d-none">
+        In this repository
+      </span>
+<span aria-label="in all of GitHub" class="js-jump-to-badge-search-text-global d-none">
+        All GitHub
+      </span>
+<span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+</div>
+<div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</label>
+</form> </div>
+</div>
+</div>
+<a class="HeaderMenu-link no-underline mr-3" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in" data-hydro-click='{"event_type":"authentication.click","payload":{"location_in_page":"site header menu","repository_id":null,"auth_type":"SIGN_UP","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="d6d665655d70030d055e3800dbc02a7d023798758a5ba755fb37ebcb0ba40d49" href="/login?return_to=%2FDiggsey%2Faoc2018">
+          Sign in
+        </a>
+<a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" data-hydro-click='{"event_type":"authentication.click","payload":{"location_in_page":"site header menu","repository_id":null,"auth_type":"SIGN_UP","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="d6d665655d70030d055e3800dbc02a7d023798758a5ba755fb37ebcb0ba40d49" href="/join?source_repo=Diggsey%2Faoc2018">
+            Sign up
+          </a>
+</div>
+</div>
+</div>
+</header>
+</div>
+<div class="show-on-focus" id="start-of-content"></div>
+<div id="js-flash-container">
+</div>
+<div class="application-main" data-commit-hovercards-enabled="">
+<div class="" itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
+<main data-pjax-container="" id="js-repo-pjax-container">
+<div class="pagehead repohead readability-menu experiment-repo-nav">
+<div class="repohead-details-container clearfix container">
+<ul class="pagehead-actions">
+<li>
+<a aria-label="You must be signed in to watch a repository" class="tooltipped tooltipped-s btn btn-sm btn-with-count" data-hydro-click='{"event_type":"authentication.click","payload":{"location_in_page":"notification subscription menu watch","repository_id":null,"auth_type":"LOG_IN","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="b30e995910709a985e6afabd15bf74c6e05254d404fda27f84530b9e00c55ae5" href="/login?return_to=%2FDiggsey%2Faoc2018" rel="nofollow">
+<svg aria-hidden="true" class="octicon octicon-eye v-align-text-bottom" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z" fill-rule="evenodd"></path></svg>
+    Watch
+</a> <a aria-label="1 user is watching this repository" class="social-count" href="/Diggsey/aoc2018/watchers">
+      1
+    </a>
+</li>
+<li>
+<a aria-label="You must be signed in to star a repository" class="btn btn-sm btn-with-count tooltipped tooltipped-s" data-hydro-click='{"event_type":"authentication.click","payload":{"location_in_page":"star button","repository_id":163079658,"auth_type":"LOG_IN","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="b13b0c603b01a4e0fe5b441a084b2db0dae2fc936803168aab0e1542ca3714ba" href="/login?return_to=%2FDiggsey%2Faoc2018" rel="nofollow">
+<svg aria-label="star" class="octicon octicon-star v-align-text-bottom" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+
+      Star
+</a>
+<a aria-label="46 users starred this repository" class="social-count js-social-count" href="/Diggsey/aoc2018/stargazers">
+      46
+    </a>
+</li>
+<li>
+<a aria-label="You must be signed in to fork a repository" class="btn btn-sm btn-with-count tooltipped tooltipped-s" data-hydro-click='{"event_type":"authentication.click","payload":{"location_in_page":"repo details fork button","repository_id":163079658,"auth_type":"LOG_IN","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="4dd213639a9f6465c72f9e3e4e4416cbf8ab62b7297cf48639691b5645a75bfc" href="/login?return_to=%2FDiggsey%2Faoc2018" rel="nofollow">
+<svg aria-hidden="true" class="octicon octicon-repo-forked v-align-text-bottom" height="16" version="1.1" viewbox="0 0 10 16" width="10"><path d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z" fill-rule="evenodd"></path></svg>
+        Fork
+</a>
+<a aria-label="2 users forked this repository" class="social-count" href="/Diggsey/aoc2018/network/members">
+      2
+    </a>
+</li>
+</ul>
+<h1 class="public">
+<svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewbox="0 0 12 16" width="12"><path d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z" fill-rule="evenodd"></path></svg>
+<span class="author" itemprop="author"><a class="url fn" data-hovercard-type="user" data-hovercard-url="/users/Diggsey/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Diggsey" rel="author">Diggsey</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/Diggsey/aoc2018">aoc2018</a></strong>
+</h1>
+</div>
+<nav aria-label="Repository" class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax container" data-pjax="#js-repo-pjax-container" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+<a aria-current="page" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /Diggsey/aoc2018" href="/Diggsey/aoc2018" itemprop="url">
+<div class="d-inline"><svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewbox="0 0 14 16" width="14"><path d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z" fill-rule="evenodd"></path></svg></div>
+<span itemprop="name">Code</span>
+<meta content="1" itemprop="position"/>
+</a> </span>
+<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+<a class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /Diggsey/aoc2018/issues" href="/Diggsey/aoc2018/issues" itemprop="url">
+<div class="d-inline"><svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewbox="0 0 14 16" width="14"><path d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z" fill-rule="evenodd"></path></svg></div>
+<span itemprop="name">Issues</span>
+<span class="Counter">0</span>
+<meta content="2" itemprop="position"/>
+</a> </span>
+<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+<a class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls checks /Diggsey/aoc2018/pulls" data-skip-pjax="true" href="/Diggsey/aoc2018/pulls" itemprop="url">
+<div class="d-inline"><svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewbox="0 0 12 16" width="12"><path d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z" fill-rule="evenodd"></path></svg></div>
+<span itemprop="name">Pull requests</span>
+<span class="Counter">0</span>
+<meta content="3" itemprop="position"/>
+</a> </span>
+<a class="js-selected-navigation-item reponav-item" data-hotkey="g b" data-selected-links="repo_projects new_repo_project repo_project /Diggsey/aoc2018/projects" href="/Diggsey/aoc2018/projects">
+<div class="d-inline"><svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewbox="0 0 15 16" width="15"><path d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z" fill-rule="evenodd"></path></svg></div>
+      Projects
+      <span class="Counter">0</span>
+</a>
+<a class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /Diggsey/aoc2018/security/advisories" data-skip-pjax="true" href="/Diggsey/aoc2018/security/advisories">
+<div class="d-inline"><svg aria-hidden="true" class="octicon octicon-shield" height="16" version="1.1" viewbox="0 0 14 16" width="14"><path d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z" fill-rule="evenodd"></path></svg></div>
+      Security
+</a>
+<a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /Diggsey/aoc2018/pulse" href="/Diggsey/aoc2018/pulse">
+<div class="d-inline"><svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z" fill-rule="evenodd"></path></svg></div>
+      Insights
+</a>
+</nav>
+</div>
+<div class="container-lg clearfix new-discussion-timeline experiment-repo-nav px-3">
+<div class="repository-content">
+<div class="signup-prompt-bg rounded-1">
+<div class="signup-prompt p-4 text-center mb-4 rounded-1">
+<div class="position-relative">
+<!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="/prompt_dismissals/signup" method="post"><input name="utf8" type="hidden" value="✓"/><input name="_method" type="hidden" value="put"/><input name="authenticity_token" type="hidden" value="+jMbXAJdADLHCSHlGTJK391JV9RtdsiohKSZhLf/gvA2oKC7ksqFfterkY5kiFQ+YqK8ZKV3Ru3wvInkOlvXdg=="/>
+<button class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss" type="submit">
+              Dismiss
+            </button>
+</form> <h3 class="pt-2">Join GitHub today</h3>
+<p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
+<a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-hydro-click='{"event_type":"authentication.click","payload":{"location_in_page":"files signup prompt","repository_id":null,"auth_type":"SIGN_UP","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="6be0abdc9d2b9c150597e0c7efbfebfaaef02f6246c2748333e2842f6264bc6d" href="/join?source=prompt-code&amp;source_repo=Diggsey%2Faoc2018">Sign up</a>
+</div>
+</div>
+</div>
+<div class="mb-3"> <div class="f4">
+<span class="text-gray-dark mr-2" itemprop="about">
+          Rust solutions to the Advent Of Code 2018
+        </span>
+</div>
+</div>
+<div class="overall-summary overall-summary-bottomless">
+<ul class="numbers-summary">
+<li class="commits">
+<a data-pjax="" href="/Diggsey/aoc2018/commits/master">
+<svg aria-hidden="true" class="octicon octicon-history" height="16" version="1.1" viewbox="0 0 14 16" width="14"><path d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z" fill-rule="evenodd"></path></svg>
+<span class="num text-emphasized">
+              1
+            </span>
+            commit
+        </a>
+</li>
+<li>
+<a data-pjax="" href="/Diggsey/aoc2018/branches">
+<svg aria-hidden="true" class="octicon octicon-git-branch" height="16" version="1.1" viewbox="0 0 10 16" width="10"><path d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 00-1-3.72C.88 1 0 1.89 0 3a2 2 0 001 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z" fill-rule="evenodd"></path></svg>
+<span class="num text-emphasized">
+            1
+          </span>
+          branch
+        </a>
+</li>
+<li>
+<a data-ga-click="Repository, packages click, location:repo overview" data-pjax="" href="/Diggsey/aoc2018/packages">
+<svg aria-hidden="true" class="octicon octicon-package" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 00-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z" fill-rule="evenodd"></path></svg>
+<span class="num text-emphasized">
+              0
+            </span>
+            packages
+          </a>
+</li>
+<li>
+<a href="/Diggsey/aoc2018/releases">
+<svg aria-hidden="true" class="octicon octicon-tag" height="16" version="1.1" viewbox="0 0 14 16" width="14"><path d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 000-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z" fill-rule="evenodd"></path></svg>
+<span class="num text-emphasized">
+            0
+          </span>
+          releases
+        </a>
+</li>
+<li>
+<include-fragment src="/Diggsey/aoc2018/contributors_size">
+<a href="/Diggsey/aoc2018/graphs/contributors">
+<svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z" fill-rule="evenodd"></path></svg>
+<span class="num text-emphasized"></span>
+                Fetching contributors
+              </a>
+</include-fragment> </li>
+</ul>
+</div>
+<details class="details-reset">
+<summary data-ga-click="Repository, language bar stats toggle, location:repo overview" title="Click for language details">
+<div class="d-flex repository-lang-stats-graph">
+<span aria-label="Rust 100.0%" class="language-color" itemprop="keywords" style="width:100.0%; background-color:#dea584;">Rust</span>
+</div>
+</summary>
+<div class="repository-lang-stats">
+<ol class="repository-lang-stats-numbers">
+<li>
+<a data-ga-click="Repository, language stats search click, location:repo overview" href="/Diggsey/aoc2018/search?l=rust">
+<span class="color-block language-color" style="background-color:#dea584;"></span>
+<span class="lang">Rust</span>
+<span class="percent">100.0%</span>
+</a>
+</li>
+</ol>
+</div>
+</details>
+<div class="file-navigation in-mid-page d-flex flex-items-start">
+<details class="details-reset details-overlay select-menu branch-select-menu hx_rsm" id="branch-select-menu">
+<summary class="btn btn-sm select-menu-button css-truncate" data-hotkey="w" title="Switch branches or tags">
+<i>Branch:</i>
+<span class="css-truncate-target" data-menu-button="">master</span>
+</summary>
+<details-menu class="select-menu-modal hx_rsm-modal position-absolute" preload="" src="/Diggsey/aoc2018/ref-list/master?source_action=disambiguate&amp;source_controller=files" style="z-index: 99;">
+<include-fragment class="select-menu-loading-overlay anim-pulse">
+<svg aria-hidden="true" class="octicon octicon-octoface" height="32" version="1.1" viewbox="0 0 16 16" width="32"><path d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z" fill-rule="evenodd"></path></svg>
+</include-fragment>
+</details-menu>
+</details>
+<button aria-label="You must be signed in to create a pull request" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" type="button">
+          New pull request
+        </button>
+<div class="breadcrumb flex-auto">
+</div>
+<div class="BtnGroup">
+<a class="btn btn-sm empty-icon float-right BtnGroup-item" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-hydro-click='{"event_type":"repository.click","payload":{"target":"FIND_FILE_BUTTON","repository_id":163079658,"client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="71c660d8a094c3e3bd17e9ad65717fb474b01aa86d04cf25189398a8e79d10a9" data-pjax="true" href="/Diggsey/aoc2018/find/master">Find file</a>
+</div>
+<details class="get-repo-select-menu js-get-repo-select-menu js-anon-get-repo-select-menu position-relative details-overlay details-reset">
+<summary class="btn btn-sm ml-2 btn-primary" data-hydro-click='{"event_type":"repository.click","payload":{"repository_id":163079658,"target":"CLONE_OR_DOWNLOAD_BUTTON","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="718e5236a21d8d86e1d2763172fe3bf286628390b7702aa90c354217261a01de">
+    Clone or download
+    <span class="dropdown-caret"></span>
+</summary> <div class="position-relative">
+<div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container js-get-repo-modal">
+<div class="get-repo-modal-options">
+<div class="clone-options https-clone-options">
+<h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+<svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewbox="0 0 14 16" width="14"><path d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z" fill-rule="evenodd"></path></svg>
+</a>
+</h4>
+<p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+<div class="input-group">
+<input aria-label="Clone this repository at https://github.com/Diggsey/aoc2018.git" class="form-control input-monospace input-sm" data-autoselect="" readonly="" type="text" value="https://github.com/Diggsey/aoc2018.git"/>
+<div class="input-group-button">
+<clipboard-copy aria-label="Copy to clipboard" class="btn btn-sm" data-hydro-click='{"event_type":"clone_or_download.click","payload":{"feature_clicked":"COPY_URL","git_repository_type":"REPOSITORY","repository_id":163079658,"client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="13758ee053ee96443b7fcc470b46544ced0d808989c39b884054c98e4d9d68e7" value="https://github.com/Diggsey/aoc2018.git"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewbox="0 0 14 16" width="14"><path d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z" fill-rule="evenodd"></path></svg></clipboard-copy>
+</div>
+</div>
+</div>
+<div class="mt-2">
+<a class="btn btn-outline get-repo-btn js-anon-download-zip-link" data-ga-click="Repository, download zip, location:repo overview" data-hydro-click='{"event_type":"clone_or_download.click","payload":{"feature_clicked":"DOWNLOAD_ZIP","git_repository_type":"REPOSITORY","repository_id":163079658,"client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="1c9c9e225a32969cf2ae8113602005514dfd27956f40a202fc375f4fd037cc56" href="/Diggsey/aoc2018/archive/master.zip" rel="nofollow">Download ZIP</a>
+</div>
+</div>
+<div class="js-modal-downloading" hidden="">
+<div class="py-2 px-3">
+<h4 class="lh-condensed mb-3">Downloading<span class="AnimatedEllipsis"></span></h4>
+<p class="text-gray">
+              Want to be notified of new releases in
+              <span class="text-bold">Diggsey/aoc2018</span>?
+            </p>
+</div>
+<div class="width-full d-flex">
+<a class="get-repo-btn btn btn-outline" data-hydro-click='{"event_type":"authentication.click","payload":{"location_in_page":"download popover","repository_id":163079658,"auth_type":"LOG_IN","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="ab26cce02ac4bd90d624d02cde90a5ef35c78b0e6cec902d35d05bd9d4495695" href="/login?return_to=https%3A%2F%2Fgithub.com%2FDiggsey%2Faoc2018" rel="nofollow" style="width: 50%">Sign in</a>
+<a class="get-repo-btn btn btn-primary" data-hydro-click='{"event_type":"authentication.click","payload":{"location_in_page":"download popover","repository_id":163079658,"auth_type":"SIGN_UP","client_id":null,"originating_request_id":"FBCB:237E:58C1CCF:953E79A:5DEFDEE5","originating_url":"https://github.com/Diggsey/aoc2018","referrer":null,"user_id":null}}' data-hydro-click-hmac="3e50f5a0fb71f64f5a8f8ea09d68e7ef082a0935c41ede68bb67ab364890e197" href="/join?branch=master&amp;source=download&amp;source_repo=Diggsey%2Faoc2018" rel="nofollow" style="width: 50%">Sign up</a>
+</div>
+</div>
+<div class="js-modal-download-mac py-2 px-3 d-none">
+<h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+<p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+<p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+</div>
+<div class="js-modal-download-windows py-2 px-3 d-none">
+<h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+<p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+<p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+</div>
+<div class="js-modal-download-xcode py-2 px-3 d-none">
+<h4 class="lh-condensed mb-3">Launching Xcode<span class="AnimatedEllipsis"></span></h4>
+<p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+<p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+</div>
+<div class="js-modal-download-visual-studio py-2 px-3 d-none">
+<h4 class="lh-condensed mb-3">Launching Visual Studio<span class="AnimatedEllipsis"></span></h4>
+<p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+<p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+</div>
+</div>
+</div>
+</details>
+</div>
+<include-fragment class="commit-tease commit-loader" src="/Diggsey/aoc2018/tree-commit/05eb4e0b866ba67990ade22ae59d09ab1b6591e9">
+<div class="blank loader-loading">
+<img alt="" class="loader" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16"/>
+      Fetching latest commit…
+  </div>
+<div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+<include-fragment class="file-wrap" src="/Diggsey/aoc2018/file-list/master">
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Diggsey/aoc2018/tree/05eb4e0b866ba67990ade22ae59d09ab1b6591e9">Permalink</a>
+<table class="files js-navigation-container js-active-navigation-container" data-pjax="">
+<thead>
+<tr>
+<th><span class="sr-only">Type</span></th>
+<th><span class="sr-only">Name</span></th>
+<th><span class="sr-only">Latest commit message</span></th>
+<th><span class="sr-only">Commit time</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="warning include-fragment-error">
+<td class="icon"><svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z" fill-rule="evenodd"></path></svg></td>
+<td class="content" colspan="3">Failed to load latest commit information.</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day10a" id="280aa039638b55b0dd1c3e9c6c3fb036-3bfdc5a3cc3aeb775e186d66723c5324b8284559" title="day10a">day10a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day10b" id="464cc6d6c327389bd756197f00c4262f-24a5444e0f64301a3d6d21c7156ac2901ee4444a" title="day10b">day10b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day11a" id="fca97d5644961e90d88ef868ddbf5ac0-26783e4d11ae54d74fae071a55091a921af6def1" title="day11a">day11a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day11b" id="000e1b6187733b6d1602500d8f03bfec-b4a2a40b0d1fe94d90ff805e3f596713560b6786" title="day11b">day11b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day12a" id="3314bec75c40e267db94387499d73a4e-8be5fdf4f71765da59c94046052cd116019fe724" title="day12a">day12a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day12b" id="e0efa0870d06b0a6e0bcd6ce784430c7-2d42db84f5571b51dc99604f29761a8aee902947" title="day12b">day12b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day13a" id="90e941d9dae048085831f565f440bdf9-3c7962643f57881bc4dae6b232b0c635b5250b26" title="day13a">day13a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day13b" id="38a0b2cf9ea66f3bf6c63bb6c9204c34-351d2f07fd24a7ccc92856375574427e45d5915a" title="day13b">day13b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day14a" id="5009cf98caa291fc34a2628506219d50-c992e63e8d7348f85df60c2dddb4b0a477c2083b" title="day14a">day14a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day14b" id="ec4e0463192f81061014aeda7d501a82-14ddc45e79ffcb79739e7885c71207ec22e284e4" title="day14b">day14b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day15a" id="f0d18bfa847e77ee17d23bde6e0fa512-4159d20aa591582bfe35444ccb595a2926c8e31e" title="day15a">day15a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day15b" id="6c98dd607150b3498d5f55c3941e9778-0e74fc721c2f95dbdc612de059148659826eceb1" title="day15b">day15b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+<a class="link-gray" data-pjax="true" href="/Diggsey/aoc2018/commit/05eb4e0b866ba67990ade22ae59d09ab1b6591e9" title="Initial commit">Initial commit</a>
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"><time-ago class="no-wrap" datetime="2018-12-25T12:10:59Z">Dec 25, 2018</time-ago></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day16a" id="34228f56e8a8d918bd750fc46da70503-f17ed8669146bf5da5a974314808a574549df35a" title="day16a">day16a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day16b" id="d21ccd69847209a2816431d79b89b1e4-8820df07411081fb2efba0137e5092527fd1e334" title="day16b">day16b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day17a" id="ed2694075a7f74809346a60493444051-061577989ad8cb3608210b726405a2494834094a" title="day17a">day17a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day17b" id="46f76636eb5c927ec2c4cb9a820af448-85544008ce0afa28887957486c366a830552b12e" title="day17b">day17b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day18a" id="54e57eecbea75ab13f8a78128cb19a70-b3a1c42fb1b838e2ca7f863f2f99126d4f31d1b2" title="day18a">day18a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day18b" id="6eca184f34f03baa5aa615186edbd379-62fb46e4b8eeb58305dff86935d2a7553c7f4f4c" title="day18b">day18b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day19a" id="8e0c6997959990bf813c72d19797000e-8b3ad11ceee9226d6c4ef9e2e08b5d6416bf2d89" title="day19a">day19a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day19b" id="cb4bbdbd9c5ec9544a25b3c92a4f9c28-a4289b465e4ecc9832bc5ae3c908b0c9c2e652e2" title="day19b">day19b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day1a" id="a1d19fca64be2887942e2ca4e2f33898-f9d09053aa9d1882ed41f91b7658dba762c75df1" title="day1a">day1a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day1b" id="38347a0e6dd9c732847aa02ac2eac2f9-c3a2a2282d052f358eba8605f46a7d72e81aa053" title="day1b">day1b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day20a" id="8a164eccfa93d35a8917bacb92503229-9f43273cdeb8a6e003010dd215dc3a2052d35cd5" title="day20a">day20a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day20b" id="2055cf03a2c8ae7d736aeb15a8e9149f-ed0a3d7d1b807eee5c3c89839799e51afe86a6bd" title="day20b">day20b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day21a" id="6d33a0011e6e889bd03b8e85d9d626fd-1ae3870d76993096cf7add4f0dd08551b599c45d" title="day21a">day21a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day21b" id="6da1e115018a3121a0b1b3d29fabde5f-44d77ba4b56ca3735778b266ae6c78ee8f665879" title="day21b">day21b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day22a" id="6603e1aa0e1a9cb43f1dabbdf1c07e1d-d9a7936822f182f2ad72d0ac71eb25e521eb34aa" title="day22a">day22a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day22b" id="1c814a55e85c44527bae81c2bcc43447-380486b5c19cf03e4e96b846b3159a9398c72ed1" title="day22b">day22b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day23a" id="5a0ff8c292b8b0dac0fcdccb8a27ec51-7fb936769cb8912816a730026fa6551cf5257cbf" title="day23a">day23a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day23b" id="421d3fb8804945bcaf27cd26f3d4f64e-25cb3befa218dfe6e70c4e5c455a30f01c82ac6e" title="day23b">day23b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day24a" id="6f83ab5ba53d1bb529b91236353e710d-a5ad8287ae2ef8913afea845a1347742305b3d1d" title="day24a">day24a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day24b" id="c09f5eeee0ba573d4cbafe7398c3f580-6a85e6a6ce8c2dd2b1500366978d2c01b3ec5ad4" title="day24b">day24b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day25a" id="8f96074d6e1b953d114bfd6e0d2aa06f-e25796408255056fd9b3d73e1f8cd0b58ef42204" title="day25a">day25a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day2a" id="01837f4663531c648cd3e16eaa0ea680-b410e572cd4d9e16c0e5a1ac805836fd9c6e9069" title="day2a">day2a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day2b" id="ee4f59ad8f358e4827569362344d1637-60e8a6731047d25ad4c85b1340c97ed00923b5a9" title="day2b">day2b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day3a" id="33dbfc3188344dd5041b8cfd8cc26f27-f7ee5c440342f50efbc0752d8aa3ff8c7ba34486" title="day3a">day3a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day3b" id="eaf5888fd5fe044753c3a8f4d69fa9bf-093d0152b2627b915138606013525c3f0fae0a00" title="day3b">day3b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day4a" id="335f7da7ed8660e6716db0656011a084-caf005ee509ac4b1195273329834c29778e73cf0" title="day4a">day4a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day4b" id="a69da7101aed41dea0803032433d8b9b-b14b37c2b88fe53bff2337000bb732c8a0cfeeb5" title="day4b">day4b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day5a" id="74ba1b17b387703f109b005e4a7572ea-e7badabed1bc0153db70d1ec0ac355e4ee7fb392" title="day5a">day5a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day5b" id="c5419d97c57a95c9fa629b3422c84712-dbfb520435b8f4f6ac2884b0c9956e036f19d362" title="day5b">day5b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day6a" id="6ade8bee45363cfe4e18c894b4f996ec-a72f0be9969951de556d4d5f7fff117f73291e01" title="day6a">day6a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day6b" id="af064a73524369bdf81959deef0d0ab4-4950042124cf2b01ec0164a1ac989d02d14115c4" title="day6b">day6b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day7a" id="2922f7d24359418927d9013da2a01778-cd5726e0e66e8bb2b370bc2d9bf46a9becd096e4" title="day7a">day7a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day7b" id="dd41fd37a111cb08404120d3b4a314f0-561628a689f817544316a5d000f9b2fb1797306a" title="day7b">day7b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day8a" id="3440a86b019c7b6834cf87c25ee4d4f3-dedd9085f76cfd4f6ce6583e62f10777c3393b61" title="day8a">day8a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day8b" id="df86ddc408f1f47def7eed946754f86b-076ffe2e8583ca57f51a3179203340aa0d900b19" title="day8b">day8b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day9a" id="98a1ddd656bcaf4ceb6d25e5f2202f50-6581a20eff8db2e30d9716064b53e195cbf04f7a" title="day9a">day9a</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+<tr class="js-navigation-item">
+<td class="icon">
+<svg aria-label="directory" class="octicon octicon-file-directory" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z" fill-rule="evenodd"></path></svg>
+<img alt="" class="spinner" height="16" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" width="16"/>
+</td>
+<td class="content">
+<span class="css-truncate css-truncate-target"><a class="js-navigation-open" href="/Diggsey/aoc2018/tree/master/day9b" id="6da52107a00183fdb1af458988a582b5-ffb7f2f9a70983b5f02b0f6a5830dca0bd657241" title="day9b">day9b</a></span>
+</td>
+<td class="message">
+<span class="css-truncate css-truncate-target">
+</span>
+</td>
+<td class="age">
+<span class="css-truncate css-truncate-target"></span>
+</td>
+</tr>
+</tbody>
+</table>
+</include-fragment>
+</div>
+</div>
+</main>
+</div>
+</div>
+<div class="footer container-lg width-full px-3" role="contentinfo">
+<div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light">
+<ul class="list-style-none d-flex flex-wrap">
+<li class="mr-3">© 2019 GitHub, Inc.</li>
+<li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+<li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+<li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+<li class="mr-3"><a data-ga-click="Footer, go to status, text:status" href="https://githubstatus.com/">Status</a></li>
+<li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+</ul>
+<a aria-label="Homepage" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com" title="GitHub">
+<svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewbox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" fill-rule="evenodd"></path></svg>
+</a>
+<ul class="list-style-none d-flex flex-wrap">
+<li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+<li class="mr-3"><a data-ga-click="Footer, go to Pricing, text:Pricing" href="https://github.com/pricing">Pricing</a></li>
+<li class="mr-3"><a data-ga-click="Footer, go to api, text:api" href="https://developer.github.com">API</a></li>
+<li class="mr-3"><a data-ga-click="Footer, go to training, text:training" href="https://training.github.com">Training</a></li>
+<li class="mr-3"><a data-ga-click="Footer, go to blog, text:blog" href="https://github.blog">Blog</a></li>
+<li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+</ul>
+</div>
+<div class="d-flex flex-justify-center pb-6">
+<span class="f6 text-gray-light"></span>
+</div>
+</div>
+<div class="ajax-error-message flash flash-error" id="ajax-error-message">
+<svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z" fill-rule="evenodd"></path></svg>
+<button aria-label="Dismiss error" class="flash-close js-ajax-error-dismiss" type="button">
+<svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewbox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z" fill-rule="evenodd"></path></svg>
+</button>
+    You can’t perform that action at this time.
+  </div>
+<script crossorigin="anonymous" integrity="sha512-mdrBasYG+QjgS391PSyVkPr06io3gWplCVbPscguetNEHxIEt+mZwCeCxPR9eMNfda6qNuibNFqBo5ak2+O/hg==" src="https://github.githubassets.com/assets/compat-bootstrap-99dac16a.js" type="application/javascript"></script>
+<script crossorigin="anonymous" integrity="sha512-70iNd/Gg+yLXPhfcelP5Zr8W3AA2fp2GsH2O/ZLbKoNOS51UGEKF/twbq+aS7x15R9F80cENGrgErdVG5frxqQ==" src="https://github.githubassets.com/assets/frameworks-ef488d77.js" type="application/javascript"></script>
+<script async="async" crossorigin="anonymous" integrity="sha512-zfhpmK5/eY3WaaOaHic6RIaeUtntjJbHUILU6uv3gFglx3Tfeyu3Y880GgCNhblT3TT3+jbXVNBiVLoli3eq7Q==" src="https://github.githubassets.com/assets/github-bootstrap-cdf86998.js" type="application/javascript"></script>
+<div class="js-stale-session-flash flash flash-warn flash-banner" hidden="">
+<svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z" fill-rule="evenodd"></path></svg>
+<span class="js-stale-session-flash-signed-in" hidden="">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+<span class="js-stale-session-flash-signed-out" hidden="">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+</div>
+<template id="site-details-dialog">
+<details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open="">
+<summary aria-label="Close dialog" role="button"></summary>
+<details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+<button aria-label="Close dialog" class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" data-close-dialog="" type="button">
+<svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewbox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z" fill-rule="evenodd"></path></svg>
+</button>
+<div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+</details-dialog>
+</details>
+</template>
+<div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+<div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+</div>
+</div>
+<div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+</body>
+</html>
