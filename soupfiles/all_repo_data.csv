@@ -1,19 +1,5 @@
 ,language_percentages,languages,readme,title
-0,['100.0%'],['Clojure'],"<div class=""Box Box--condensed md js-code-block-container"" id=""readme"">
-<div class=""Box-header d-flex flex-items-center flex-justify-between px-2"">
-<h3 class=""Box-title pr-3"">
-<svg aria-hidden=""true"" class=""octicon octicon-book"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"" fill-rule=""evenodd""></path></svg>
-        README.md
-      </h3>
-</div>
-<div class=""Popover anim-scale-in js-tagsearch-popover"" data-hydro-click='{""event_type"":""code_navigation.click_on_symbol"",""payload"":{""action"":""click_on_symbol"",""repository_id"":76759168,""ref"":""master"",""language"":""Markdown"",""client_id"":null,""originating_request_id"":""C5A3:6F65:597D03F:96D33A3:5DEFE134"",""originating_url"":""https://github.com/mfikes/advent-of-code"",""referrer"":null,""user_id"":null}}' data-hydro-click-hmac=""1c87f7b6a344cd4debee1158af0add1d02e391f13280df5ea62dae2865161976"" data-tagsearch-lang=""Markdown"" data-tagsearch-path=""README.md"" data-tagsearch-ref=""master"" data-tagsearch-url=""/mfikes/advent-of-code/find-symbols"" hidden="""">
-<div class=""Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large"">
-<div class=""TagsearchPopover-content js-tagsearch-popover-content overflow-auto"" style=""will-change:transform;"">
-</div>
-</div>
-</div>
-<div class=""Box-body"">
-<article class=""markdown-body entry-content p-5"" itemprop=""text""><h1><a aria-hidden=""true"" class=""anchor"" href=""#advent-of-code"" id=""user-content-advent-of-code""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Advent of Code</h1>
+0,['100.0%'],['Clojure'],"<article class=""markdown-body entry-content p-5"" itemprop=""text""><h1><a aria-hidden=""true"" class=""anchor"" href=""#advent-of-code"" id=""user-content-advent-of-code""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Advent of Code</h1>
 <p><a href=""http://adventofcode.com"" rel=""nofollow"">Advent of Code</a> in Clojure and Self-Hosted ClojureScript.</p>
 <h2><a aria-hidden=""true"" class=""anchor"" href=""#clojure"" id=""user-content-clojure""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Clojure</h2>
 <pre><code>clj
@@ -21,24 +7,8 @@
 <h2><a aria-hidden=""true"" class=""anchor"" href=""#self-hosted-clojurescript"" id=""user-content-self-hosted-clojurescript""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Self-Hosted ClojureScript</h2>
 <pre><code>plk
 </code></pre>
-</article>
-</div>
-</div>",advent-of-code
-1,['100.0%'],['Jupyter Notebook'],"<div class=""Box Box--condensed md js-code-block-container"" id=""readme"">
-<div class=""Box-header d-flex flex-items-center flex-justify-between px-2"">
-<h3 class=""Box-title pr-3"">
-<svg aria-hidden=""true"" class=""octicon octicon-book"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"" fill-rule=""evenodd""></path></svg>
-        README.md
-      </h3>
-</div>
-<div class=""Popover anim-scale-in js-tagsearch-popover"" data-hydro-click='{""event_type"":""code_navigation.click_on_symbol"",""payload"":{""action"":""click_on_symbol"",""repository_id"":195082568,""ref"":""master"",""language"":""Markdown"",""client_id"":null,""originating_request_id"":""C5A4:0EC2:3458771:5DEFACA:5DEFE134"",""originating_url"":""https://github.com/ryanorsinger/intro-to-machine-learning-workshop"",""referrer"":null,""user_id"":null}}' data-hydro-click-hmac=""bbdae670981152021508e028a909d9b6359b31e8b31a9059146854c442ba1ae3"" data-tagsearch-lang=""Markdown"" data-tagsearch-path=""README.md"" data-tagsearch-ref=""master"" data-tagsearch-url=""/ryanorsinger/intro-to-machine-learning-workshop/find-symbols"" hidden="""">
-<div class=""Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large"">
-<div class=""TagsearchPopover-content js-tagsearch-popover-content overflow-auto"" style=""will-change:transform;"">
-</div>
-</div>
-</div>
-<div class=""Box-body"">
-<article class=""markdown-body entry-content p-5"" itemprop=""text""><h1><a aria-hidden=""true"" class=""anchor"" href=""#intro-to-data-science-workshop"" id=""user-content-intro-to-data-science-workshop""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Intro to Data Science Workshop</h1>
+</article>",advent-of-code
+1,['100.0%'],['Jupyter Notebook'],"<article class=""markdown-body entry-content p-5"" itemprop=""text""><h1><a aria-hidden=""true"" class=""anchor"" href=""#intro-to-data-science-workshop"" id=""user-content-intro-to-data-science-workshop""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Intro to Data Science Workshop</h1>
 <h2><a aria-hidden=""true"" class=""anchor"" href=""#outline"" id=""user-content-outline""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Outline</h2>
 <ul>
 <li><code>handout.md</code> should be rendered as HTML and printed for all participants</li>
@@ -56,27 +26,76 @@
 <li>Data Science workflow from planning, data acquisition, data wrangling/preparation, and exploration/visualization <a href=""https://www.kaggle.com/ryanorsinger/describe-vizualize-data"" rel=""nofollow"">https://www.kaggle.com/ryanorsinger/intro-to-data-science</a></li>
 <li>Lesson and exercise for modeling with linear regressions <a href=""https://www.kaggle.com/ryanorsinger/describe-vizualize-data"" rel=""nofollow"">https://www.kaggle.com/ryanorsinger/intro-to-linear-modeling</a></li>
 </ul>
-</article>
-</div>
-</div>",intro-to-machine-learning-workshop
+</article>",intro-to-machine-learning-workshop
 2,['100.0%'],['Rust'],,aoc2018
-3,"['96.0%', '4.0%']","['Jupyter Notebook', 'Python']","<div class=""Box Box--condensed md js-code-block-container"" id=""readme"">
-<div class=""Box-header d-flex flex-items-center flex-justify-between px-2"">
-<h3 class=""Box-title pr-3"">
-<svg aria-hidden=""true"" class=""octicon octicon-book"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"" fill-rule=""evenodd""></path></svg>
-        ReadMe.md
-      </h3>
-</div>
-<div class=""Popover anim-scale-in js-tagsearch-popover"" data-hydro-click='{""event_type"":""code_navigation.click_on_symbol"",""payload"":{""action"":""click_on_symbol"",""repository_id"":225210261,""ref"":""master"",""language"":""Markdown"",""client_id"":null,""originating_request_id"":""C5AE:6851:55223C7:8F60C25:5DEFE135"",""originating_url"":""https://github.com/kjeliasen/AdventOfCode"",""referrer"":null,""user_id"":null}}' data-hydro-click-hmac=""5c6b11081865ced07b9cc2cae743f245dbc4839d1fbd1cd3e5922cc635666e78"" data-tagsearch-lang=""Markdown"" data-tagsearch-path=""ReadMe.md"" data-tagsearch-ref=""master"" data-tagsearch-url=""/kjeliasen/AdventOfCode/find-symbols"" hidden="""">
-<div class=""Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large"">
-<div class=""TagsearchPopover-content js-tagsearch-popover-content overflow-auto"" style=""will-change:transform;"">
-</div>
-</div>
-</div>
-<div class=""Box-body"">
-<article class=""markdown-body entry-content p-5"" itemprop=""text""><h1><a aria-hidden=""true"" class=""anchor"" href=""#advent-of-code-challenge"" id=""user-content-advent-of-code-challenge""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Advent of Code Challenge</h1>
+3,"['96.0%', '4.0%']","['Jupyter Notebook', 'Python']","<article class=""markdown-body entry-content p-5"" itemprop=""text""><h1><a aria-hidden=""true"" class=""anchor"" href=""#advent-of-code-challenge"" id=""user-content-advent-of-code-challenge""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Advent of Code Challenge</h1>
 <p><a href=""https://adventofcode.com/"" rel=""nofollow""><em><strong>AoC information here</strong></em></a></p>
 <p>Advent of Code is an annual coding challenge for the Advent season (Dec 1-24).</p>
-</article>
-</div>
-</div>",AdventOfCode
+</article>",AdventOfCode
+4,['100.0%'],['Elixir'],"<article class=""markdown-body entry-content p-5"" itemprop=""text""><h1><a aria-hidden=""true"" class=""anchor"" href=""#advent-of-code-elixir-starter"" id=""user-content-advent-of-code-elixir-starter""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Advent of Code Elixir Starter</h1>
+<p>A batteries included starter pack for participating in <a href=""https://www.adventofcode.com"" rel=""nofollow"">Advent of Code</a> using Elixir!</p>
+<h2><a aria-hidden=""true"" class=""anchor"" href=""#usage"" id=""user-content-usage""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Usage</h2>
+<p>There are 25 modules, 25 tests, and 50 mix tasks.</p>
+<ol>
+<li>Fill in the tests with the example solutions.</li>
+<li>Write your implementation.</li>
+<li>Fill in the final problem inputs into the mix task and run <code>mix d01.p1</code>!
+<ul>
+<li>Benchmark your solution by passing the <code>-b</code> flag, <code>mix d01.p1 -b</code></li>
+</ul>
+</li>
+</ol>
+<div class=""highlight highlight-source-elixir""><pre><span class=""pl-k"">defmodule</span> <span class=""pl-e"">AdventOfCode</span>.<span class=""pl-en"">Day01</span> <span class=""pl-k"">do</span>
+  <span class=""pl-k"">def</span> <span class=""pl-en"">part1</span>(args) <span class=""pl-k"">do</span>
+  <span class=""pl-k"">end</span>
+
+  <span class=""pl-k"">def</span> <span class=""pl-en"">part2</span>(args) <span class=""pl-k"">do</span>
+  <span class=""pl-k"">end</span>
+<span class=""pl-k"">end</span></pre></div>
+<div class=""highlight highlight-source-elixir""><pre><span class=""pl-k"">defmodule</span> <span class=""pl-e"">AdventOfCode</span>.<span class=""pl-en"">Day01Test</span> <span class=""pl-k"">do</span>
+  <span class=""pl-k"">use</span> <span class=""pl-en"">ExUnit</span>.<span class=""pl-en"">Case</span>
+
+  <span class=""pl-k"">import</span> <span class=""pl-en"">AdventOfCode</span>.<span class=""pl-en"">Day01</span>
+
+  <span class=""pl-smi"">@tag</span> <span class=""pl-c1"">:skip</span> <span class=""pl-c""><span class=""pl-c"">#</span> Make sure to remove to run your test.</span>
+  test <span class=""pl-s""><span class=""pl-pds"">""</span>part1<span class=""pl-pds"">""</span></span> <span class=""pl-k"">do</span>
+    input <span class=""pl-k"">=</span> <span class=""pl-c1"">nil</span> 
+    result <span class=""pl-k"">=</span> <span class=""pl-en"">part1</span>(input)
+
+    assert result
+  <span class=""pl-k"">end</span>
+
+  <span class=""pl-smi"">@tag</span> <span class=""pl-c1"">:skip</span> <span class=""pl-c""><span class=""pl-c"">#</span> Make sure to remove to run your test.</span>
+  test <span class=""pl-s""><span class=""pl-pds"">""</span>part2<span class=""pl-pds"">""</span></span> <span class=""pl-k"">do</span>
+    input <span class=""pl-k"">=</span> <span class=""pl-c1"">nil</span> 
+    result <span class=""pl-k"">=</span> <span class=""pl-en"">part2</span>(input)
+
+    assert result
+  <span class=""pl-k"">end</span>
+<span class=""pl-k"">end</span></pre></div>
+<div class=""highlight highlight-source-elixir""><pre><span class=""pl-k"">defmodule</span> <span class=""pl-e"">Mix</span>.<span class=""pl-e"">Tasks</span>.<span class=""pl-e"">D01</span>.<span class=""pl-en"">P1</span> <span class=""pl-k"">do</span>
+  <span class=""pl-k"">use</span> <span class=""pl-en"">Mix</span>.<span class=""pl-en"">Task</span>
+
+  <span class=""pl-k"">import</span> <span class=""pl-en"">AdventOfCode</span>.<span class=""pl-en"">Day01</span>
+
+  <span class=""pl-smi"">@shortdoc</span> <span class=""pl-s""><span class=""pl-pds"">""</span>Day 01 Part 1<span class=""pl-pds"">""</span></span>
+  <span class=""pl-k"">def</span> <span class=""pl-en"">run</span>(args) <span class=""pl-k"">do</span>
+    input <span class=""pl-k"">=</span> <span class=""pl-c1"">nil</span>
+
+    <span class=""pl-k"">if</span> <span class=""pl-en"">Enum</span>.<span class=""pl-en"">member?</span>(args, <span class=""pl-s""><span class=""pl-pds"">""</span>-b<span class=""pl-pds"">""</span></span>),
+      <span class=""pl-c1"">do:</span> <span class=""pl-en"">Benchee</span>.<span class=""pl-en"">run</span>(%{<span class=""pl-c1"">part_1:</span> <span class=""pl-k"">fn</span> <span class=""pl-k"">-&gt;</span> input <span class=""pl-k"">|&gt;</span> <span class=""pl-en"">part1</span>() <span class=""pl-k"">end</span>}),
+      <span class=""pl-c1"">else:</span>
+        input
+        <span class=""pl-k"">|&gt;</span> <span class=""pl-en"">part1</span>()
+        <span class=""pl-k"">|&gt;</span> <span class=""pl-en"">IO</span>.<span class=""pl-en"">inspect</span>(<span class=""pl-c1"">label:</span> <span class=""pl-s""><span class=""pl-pds"">""</span>Part 1 Results<span class=""pl-pds"">""</span></span>)
+  <span class=""pl-k"">end</span>
+<span class=""pl-k"">end</span>   </pre></div>
+<h2><a aria-hidden=""true"" class=""anchor"" href=""#installation"" id=""user-content-installation""><svg aria-hidden=""true"" class=""octicon octicon-link"" height=""16"" version=""1.1"" viewbox=""0 0 16 16"" width=""16""><path d=""M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"" fill-rule=""evenodd""></path></svg></a>Installation</h2>
+<div class=""highlight highlight-source-shell""><pre><span class=""pl-c""><span class=""pl-c"">#</span> clone</span>
+$ git clone git@github.com:mhanberg/advent-of-code-elixir-starter.git advent-of-code
+$ <span class=""pl-c1"">cd</span> advent-of-code
+
+<span class=""pl-c""><span class=""pl-c"">#</span> Reinitialize your git repo</span>
+$ rm -rf .git
+$ git init</pre></div>
+</article>",advent-of-code-elixir-starter

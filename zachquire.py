@@ -28,7 +28,7 @@ headers = {
 
 if (
     headers["Authorization"] == "token "
-    or headers["User-Agent"] == github_username
+    or headers["User-Agent"] == "YOUR_GITHUB_USERNAME"
 ):
     raise Exception(
         "You need to follow the instructions marked TODO in this script before trying to use it"
@@ -65,6 +65,7 @@ def process_repo(repo: str) -> Dict[str, str]:
     Takes a repo name like "gocodeup/codeup-setup-script" and returns
     a dictionary with the language of the repo and the readme contents.
     """
+    print(repo)
     contents = get_repo_contents(repo)
     return {
         "repo": repo,
@@ -73,13 +74,13 @@ def process_repo(repo: str) -> Dict[str, str]:
     }
 
 
-def scrape_github_data(repos=repos):
+def scrape_github_data(repos=repos, filepath="data.json"):
     """
     Loop through all of the repos and process them. Saves the data in
     `data.json`.
     """
     data = [process_repo(repo) for repo in repos]
-    json.dump(data, open("data.json", "w"))
+    json.dump(data, open(filepath, "w"))
 
 
 if __name__ == "__main__":
