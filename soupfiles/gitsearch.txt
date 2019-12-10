@@ -1,0 +1,343 @@
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":1,"click_id":159918462,"result":{"id":159918462,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNTk5MTg0NjI=","model_name":"Repository","url":"https://github.com/Bogdanp/awesome-advent-of-code"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="e3450328f3c6c51d76cf8b749de146a7c42ec4bdd6f92227c6602d37c273df12" href="/Bogdanp/awesome-advent-of-code">Bogdanp/awesome-<em>advent</em>-<em>of</em>-<em>code</em></a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+        A collection <em>of</em> awesome resources related to the yearly <em>Advent</em> <em>of</em> <em>Code</em> challenge.
+      </p>
+<div class="topics-row-container col-12 col-md-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code,repository_id:159918462,repository_nwo:Bogdanp/awesome-&lt;em&gt;advent&lt;/em&gt;-&lt;em&gt;of&lt;/em&gt;-&lt;em&gt;code&lt;/em&gt;,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code" title="Topic: advent-of-code">
+  advent-of-code
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code-2018,repository_id:159918462,repository_nwo:Bogdanp/awesome-&lt;em&gt;advent&lt;/em&gt;-&lt;em&gt;of&lt;/em&gt;-&lt;em&gt;code&lt;/em&gt;,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code-2018" title="Topic: advent-of-code-2018">
+  advent-of-code-2018
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code-2019,repository_id:159918462,repository_nwo:Bogdanp/awesome-&lt;em&gt;advent&lt;/em&gt;-&lt;em&gt;of&lt;/em&gt;-&lt;em&gt;code&lt;/em&gt;,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code-2019" title="Topic: advent-of-code-2019">
+  advent-of-code-2019
+</a>
+</div>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2019-12-10T14:27:05Z">Dec 10, 2019</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #3572A5"></span>
+<span itemprop="programmingLanguage">Python</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/Bogdanp/awesome-advent-of-code/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          380
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":2,"click_id":159947853,"result":{"id":159947853,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNTk5NDc4NTM=","model_name":"Repository","url":"https://github.com/BurntSushi/advent-of-code"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="42dd22caee6afdc56966a978f1b499f2723a19c2ab2beb34982ef786b7593b4d" href="/BurntSushi/advent-of-code">BurntSushi/<em>advent</em>-<em>of</em>-<em>code</em></a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+        Rust solutions to AoC 2018
+      </p>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2019-11-29T12:21:16Z">Nov 29, 2019</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #dea584"></span>
+<span itemprop="programmingLanguage">Rust</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/BurntSushi/advent-of-code/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          255
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":3,"click_id":159980241,"result":{"id":159980241,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNTk5ODAyNDE=","model_name":"Repository","url":"https://github.com/Lysxia/advent-of-coq-2018"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="0f58cb0f06a974afe4326b85d7c18b25e56d3cfc217dd6ac1f89c060b0c29c67" href="/Lysxia/advent-of-coq-2018">Lysxia/<em>advent</em>-<em>of</em>-coq-2018</a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+<em>Advent</em> <em>of</em> <em>Code</em> 2018, in Coq! (<a href="https://adventofcode.com/2018" rel="nofollow">https://adventofcode.com/2018</a>)
+      </p>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2019-02-02T19:30:09Z">Feb 2, 2019</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #ccc"></span>
+<span itemprop="programmingLanguage">Coq</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/Lysxia/advent-of-coq-2018/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          135
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":4,"click_id":160860620,"result":{"id":160860620,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNjA4NjA2MjA=","model_name":"Repository","url":"https://github.com/fogleman/AdventOfCode2018"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="1b82f3fc0a77b38ddafa6bb059305da16588d54e5598127f1c78d9e3907511de" href="/fogleman/AdventOfCode2018">fogleman/<em>AdventOfCode</em>2018</a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+        My solutions to the <em>Advent</em> <em>of</em> <em>Code</em> 2018 problems.
+      </p>
+<div class="topics-row-container col-12 col-md-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:python,repository_id:160860620,repository_nwo:fogleman/&lt;em&gt;AdventOfCode&lt;/em&gt;2018,repository_public:true,repository_is_fork:false" href="/topics/python" title="Topic: python">
+  python
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code,repository_id:160860620,repository_nwo:fogleman/&lt;em&gt;AdventOfCode&lt;/em&gt;2018,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code" title="Topic: advent-of-code">
+  advent-of-code
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code-2018,repository_id:160860620,repository_nwo:fogleman/&lt;em&gt;AdventOfCode&lt;/em&gt;2018,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code-2018" title="Topic: advent-of-code-2018">
+  advent-of-code-2018
+</a>
+</div>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2018-12-20T19:37:10Z">Dec 20, 2018</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #3572A5"></span>
+<span itemprop="programmingLanguage">Python</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/fogleman/AdventOfCode2018/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          80
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":5,"click_id":159806395,"result":{"id":159806395,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNTk4MDYzOTU=","model_name":"Repository","url":"https://github.com/mstksg/advent-of-code-2018"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="1aefea5b06dd6154c6750129fba42516aacff63724987f84225a451f4bedca48" href="/mstksg/advent-of-code-2018">mstksg/<em>advent</em>-<em>of</em>-<em>code</em>-2018</a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+<em>Advent</em> <em>of</em> <em>Code</em> 2018 Solutions (Spoilers!)
+      </p>
+<div class="topics-row-container col-12 col-md-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code,repository_id:159806395,repository_nwo:mstksg/&lt;em&gt;advent&lt;/em&gt;-&lt;em&gt;of&lt;/em&gt;-&lt;em&gt;code&lt;/em&gt;-2018,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code" title="Topic: advent-of-code">
+  advent-of-code
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code-2018,repository_id:159806395,repository_nwo:mstksg/&lt;em&gt;advent&lt;/em&gt;-&lt;em&gt;of&lt;/em&gt;-&lt;em&gt;code&lt;/em&gt;-2018,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code-2018" title="Topic: advent-of-code-2018">
+  advent-of-code-2018
+</a>
+</div>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2019-12-01T18:29:12Z">Dec 1, 2019</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #5e5086"></span>
+<span itemprop="programmingLanguage">Haskell</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/mstksg/advent-of-code-2018/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          78
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":6,"click_id":165605575,"result":{"id":165605575,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNjU2MDU1NzU=","model_name":"Repository","url":"https://github.com/Voltara/advent2018-fast"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="fed90d2b60c141e2492e1f6ae64a59aa77d0c65f4198c05ea5cbdaa1699d699c" href="/Voltara/advent2018-fast">Voltara/<em>advent</em>2018-fast</a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+<em>Advent</em> <em>of</em> <em>Code</em> 2018 optimized solutions in C++
+      </p>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2019-01-15T04:32:06Z">Jan 15, 2019</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #f34b7d"></span>
+<span itemprop="programmingLanguage">C++</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/Voltara/advent2018-fast/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          73
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":7,"click_id":75490534,"result":{"id":75490534,"global_relay_id":"MDEwOlJlcG9zaXRvcnk3NTQ5MDUzNA==","model_name":"Repository","url":"https://github.com/wimglenn/advent-of-code-data"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="d00d3ff65810572d4c0d9fed5ec2dbd7b98c993e20edd19fb48455b0816059cb" href="/wimglenn/advent-of-code-data">wimglenn/<em>advent</em>-<em>of</em>-<em>code</em>-data</a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+        Get your <em>Advent</em> <em>of</em> <em>Code</em> data with a single import statement
+      </p>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          MIT license
+        </p>
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2019-12-09T18:10:48Z">Dec 9, 2019</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #3572A5"></span>
+<span itemprop="programmingLanguage">Python</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/wimglenn/advent-of-code-data/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          72
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":8,"click_id":47485393,"result":{"id":47485393,"global_relay_id":"MDEwOlJlcG9zaXRvcnk0NzQ4NTM5Mw==","model_name":"Repository","url":"https://github.com/ChrisPenner/Advent-Of-Code-Polyglot"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="5b36fb40797f3f02fe01cb9c5f5e4844b5cbc817e790239609814060634199b9" href="/ChrisPenner/Advent-Of-Code-Polyglot">ChrisPenner/<em>Advent</em>-<em>Of</em>-<em>Code</em>-Polyglot</a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+        Examples <em>of</em> "<em>Advent</em> <em>Of</em> <em>Code</em>" solutions in many programming languages.
+      </p>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2017-01-13T05:22:05Z">Jan 13, 2017</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #3572A5"></span>
+<span itemprop="programmingLanguage">Python</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/ChrisPenner/Advent-Of-Code-Polyglot/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          71
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":9,"click_id":160591683,"result":{"id":160591683,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNjA1OTE2ODM=","model_name":"Repository","url":"https://github.com/jaksi/advent-of-other-peoples-code"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="d047edd1ea65b65ec4ceb1b46ab2ed1e973203ce124fe810d1fccc60c689248d" href="/jaksi/advent-of-other-peoples-code">jaksi/<em>advent</em>-<em>of</em>-other-peoples-<em>code</em></a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+        Fetches random solutions to a specified <em>Advent</em> <em>of</em> <em>Code</em> puzzle from GitHub and runs them against your input
+      </p>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2018-12-22T11:19:21Z">Dec 22, 2018</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #3572A5"></span>
+<span itemprop="programmingLanguage">Python</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/jaksi/advent-of-other-peoples-code/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          69
+        </a>
+</div>
+</div>
+</li>
+<li class="repo-list-item d-flex flex-column flex-md-row flex-justify-start py-4 public source">
+<div class="col-12 col-md-8 pr-md-3">
+<h3>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":1,"per_page":10,"query":"advent of code","result_position":10,"click_id":159589936,"result":{"id":159589936,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNTk1ODk5MzY=","model_name":"Repository","url":"https://github.com/molyswu/hand_detection"},"client_id":null,"originating_request_id":"D475:3272:4BB24E1:90EE6C2:5DEFC69E","originating_url":"https://github.com/search?o=desc&amp;p=1&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="c7146a04d32201e689246d3a3c9599a5dd473d8b1dd12802ae602c94782ad0e8" href="/molyswu/hand_detection">molyswu/hand_detection</a>
+</h3>
+<p class="col-12 col-md-9 d-inline-block text-gray mb-2 pr-4">
+         more approachable by deep learning frameworks (such as the tensorflow object detection api) that simplify the process <em>…</em>
+</p>
+<div class="d-flex flex-wrap">
+<p class="f6 text-gray mr-3 mb-0 mt-2">
+          Updated <relative-time class="no-wrap" datetime="2018-11-29T13:37:53Z">Nov 29, 2018</relative-time>
+</p>
+</div>
+</div>
+<div class="flex-shrink-0 col-6 col-md-4 pt-2 pr-md-3 d-flex">
+<div class="text-gray flex-auto min-width-0">
+<div class="mr-3">
+<span>
+<span class="repo-language-color" style="background-color: #3572A5"></span>
+<span itemprop="programmingLanguage">Python</span>
+</span>
+</div>
+</div>
+<div class="pl-2 pl-md-0 text-right flex-auto min-width-0">
+<a class="muted-link" href="/molyswu/hand_detection/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          65
+        </a>
+</div>
+</div>
+</li>
