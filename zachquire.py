@@ -73,7 +73,7 @@ def process_repo(repo: str) -> Dict[str, str]:
     }
 
 
-def scrape_github_data():
+def scrape_github_data(repos=repos):
     """
     Loop through all of the repos and process them. Saves the data in
     `data.json`.
