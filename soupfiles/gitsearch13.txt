@@ -1,0 +1,71 @@
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":1,"click_id":75350699,"result":{"id":75350699,"global_relay_id":"MDEwOlJlcG9zaXRvcnk3NTM1MDY5OQ==","model_name":"Repository","url":"https://github.com/JEG2/advent_of_code_2016"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="65aaa7923c90a6292d3a08dfc5e8317775d27ff6d07ab6003ebd3990f1b73d33" href="/JEG2/advent_of_code_2016">JEG2/<em>advent</em>_<em>of</em>_<em>code</em>_2016</a>
+<a href="http://adventofcode.com/" rel="nofollow">http://adventofcode.com/</a>
+<a class="muted-link" href="/JEG2/advent_of_code_2016/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          9
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":2,"click_id":160142036,"result":{"id":160142036,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNjAxNDIwMzY=","model_name":"Repository","url":"https://github.com/jennybc/2018_advent-of-code"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="f6990d20b24a612fb2ea4f63bbde5a2a4506c1fbac84f3035d3b039689b3aa52" href="/jennybc/2018_advent-of-code">jennybc/2018_<em>advent</em>-<em>of</em>-<em>code</em></a>
+<a class="muted-link" href="/jennybc/2018_advent-of-code/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          9
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":3,"click_id":47678407,"result":{"id":47678407,"global_relay_id":"MDEwOlJlcG9zaXRvcnk0NzY3ODQwNw==","model_name":"Repository","url":"https://github.com/themattchan/advent-of-code"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="388ff50be68dfd337ee9f41a677ad10f8cd9e6fcc284e792c3dec018b44b2ef0" href="/themattchan/advent-of-code">themattchan/<em>advent</em>-<em>of</em>-<em>code</em></a>
+<a href="http://adventofcode.com/" rel="nofollow">http://adventofcode.com/</a>
+<a class="muted-link" href="/themattchan/advent-of-code/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          9
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":4,"click_id":159951353,"result":{"id":159951353,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNTk5NTEzNTM=","model_name":"Repository","url":"https://github.com/phaazon/advent-of-code-2k18"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="6cc4aa08496cd11bc6b87b8b239858ded689225e8385165e70f7cfe3b70782e7" href="/phaazon/advent-of-code-2k18">phaazon/<em>advent</em>-<em>of</em>-<em>code</em>-2k18</a>
+<a href="https://adventofcode.com/2018" rel="nofollow">https://adventofcode.com/2018</a>
+<a class="muted-link" href="/phaazon/advent-of-code-2k18/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          9
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":5,"click_id":225246272,"result":{"id":225246272,"global_relay_id":"MDEwOlJlcG9zaXRvcnkyMjUyNDYyNzI=","model_name":"Repository","url":"https://github.com/freskog/adventofcode2019"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="c1f3ee3f2afcfcb22eef907783901f1e82714e13d439be60da7635acb3a19b38" href="/freskog/adventofcode2019">freskog/<em>adventofcode2019</em></a>
+<a class="muted-link" href="/freskog/adventofcode2019/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          9
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":6,"click_id":226218289,"result":{"id":226218289,"global_relay_id":"MDEwOlJlcG9zaXRvcnkyMjYyMTgyODk=","model_name":"Repository","url":"https://github.com/emmericp/aoc19-intcode-jit"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="be30b24b35a3ddf53ed6feee469f65eda76a8b7f6d7c88b7461570653998d6d2" href="/emmericp/aoc19-intcode-jit">emmericp/aoc19-intcode-jit</a>
+<a class="muted-link" href="/emmericp/aoc19-intcode-jit/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          9
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":7,"click_id":225155562,"result":{"id":225155562,"global_relay_id":"MDEwOlJlcG9zaXRvcnkyMjUxNTU1NjI=","model_name":"Repository","url":"https://github.com/lynn/aoc-2019"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="97101420c192fd67cc654ed4b180768bbb963850730ed069fcd4ea1d73b0ec60" href="/lynn/aoc-2019">lynn/aoc-2019</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code,repository_id:225155562,repository_nwo:lynn/aoc-2019,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code" title="Topic: advent-of-code">
+  advent-of-code
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code-2019,repository_id:225155562,repository_nwo:lynn/aoc-2019,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code-2019" title="Topic: advent-of-code-2019">
+  advent-of-code-2019
+</a>
+<a class="muted-link" href="/lynn/aoc-2019/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          9
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":8,"click_id":10064022,"result":{"id":10064022,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxMDA2NDAyMg==","model_name":"Repository","url":"https://github.com/SickheadGames/AdventureKit"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="1e0f5833e5726aa43da87f137ba0f8a1cfe76c8918a13b1794ecfb2a4e025fdf" href="/SickheadGames/AdventureKit">SickheadGames/<em>AdventureKit</em></a>
+<a class="muted-link" href="/SickheadGames/AdventureKit/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          8
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":9,"click_id":159696804,"result":{"id":159696804,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNTk2OTY4MDQ=","model_name":"Repository","url":"https://github.com/Sketch-sh/advent-of-code-2018"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="dcfca64e7281b752a0888c999d56dc4ae42067f4c360a41775ff386a1b7566d8" href="/Sketch-sh/advent-of-code-2018">Sketch-sh/<em>advent</em>-<em>of</em>-<em>code</em>-2018</a>
+<a class="muted-link" href="/Sketch-sh/advent-of-code-2018/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          8
+        </a>
+<a class="v-align-middle" data-hydro-click='{"event_type":"search_result.click","payload":{"page_number":13,"per_page":10,"query":"advent of code","result_position":10,"click_id":159884865,"result":{"id":159884865,"global_relay_id":"MDEwOlJlcG9zaXRvcnkxNTk4ODQ4NjU=","model_name":"Repository","url":"https://github.com/staylorwr/elixir_aoc"},"client_id":null,"originating_request_id":"C698:7D8D:4D8244C:9471C77:5DF0386A","originating_url":"https://github.com/search?o=desc&amp;p=13&amp;q=advent+of+code&amp;s=stars&amp;type=Repositories","referrer":null,"user_id":null}}' data-hydro-click-hmac="ae547ff86928eeb23ebeb477917463535d8352879465555c2ed265a1c54f53a1" href="/staylorwr/elixir_aoc">staylorwr/elixir_aoc</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code,repository_id:159884865,repository_nwo:staylorwr/elixir_aoc,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code" title="Topic: advent-of-code">
+  advent-of-code
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code-template,repository_id:159884865,repository_nwo:staylorwr/elixir_aoc,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code-template" title="Topic: advent-of-code-template">
+  advent-of-code-template
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code-2018,repository_id:159884865,repository_nwo:staylorwr/elixir_aoc,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code-2018" title="Topic: advent-of-code-2018">
+  advent-of-code-2018
+</a>
+<a class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, search results" data-octo-click="topic_click" data-octo-dimensions="topic:advent-of-code-elixir,repository_id:159884865,repository_nwo:staylorwr/elixir_aoc,repository_public:true,repository_is_fork:false" href="/topics/advent-of-code-elixir" title="Topic: advent-of-code-elixir">
+  advent-of-code-elixir
+</a>
+<a class="muted-link" href="/staylorwr/elixir_aoc/stargazers">
+<svg aria-label="star" class="octicon octicon-star" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" fill-rule="evenodd"></path></svg>
+          8
+        </a>
