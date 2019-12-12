@@ -24,6 +24,14 @@ Do different programming languages use a different number of unique words?
 
 Modeling
 
+
 In modeling, we transform our dataframe into a form that can be used in machine learning models.
 We fit several different models  using the TF-IDF values for each).
 Lastly, we build a function that takes in the text of a README file, and tries to predict the programming language.
+
+
+*Required to Recreate our Findings:*
+1. Final.ipynb and python files included within this repository
+2. A file called env.py that contains the following information:
+    - github_token = **YOUR_GITHUB_TOKEN_AS_STRING**
+    - github_username = **YOUR_USER_NAME_AS_STRING**

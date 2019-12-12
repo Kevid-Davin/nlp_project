@@ -140,7 +140,7 @@ def make_soup_gitsearch(
 def get_repo_urls_from_gitsearch(df, column='soup', reg_text=r'"url"\:"(.+?)"'):
     git_urls = []
     re_url = re.compile(reg_text)
-    for soup in soup_df.soup:
+    for soup in df.soup:
         git_urls.extend(re_url.findall(str(soup)))
     return list(set(git_urls))
 
@@ -184,7 +184,7 @@ def scrape_github_data(repos=[], filepath="datafiles/data.json"):
     return True
 
 
-def process_scraped_repos(filepath = "datafiles/data.json"):
+def process_scraped_repos(filepath = "datafiles/data.json", remove_repos=[]):
     git_json = pd.read_json(filepath).rename(columns={'repo':'repo_full'})
     git_json=git_json[git_json.repo_full.isin(remove_repos)==False].dropna().reset_index().drop(columns='index')
     git_json['author'] = git_json.repo_full.apply(lambda x: x.split('/')[0])
@@ -202,5 +202,5 @@ def output_processed_repos(git_df, output_file='datafiles/outdata.json'):
     return json_chk
 
 
-if ___name___ == '__main__':
+if __name__ == '__main__':
     print('opened acquire')
