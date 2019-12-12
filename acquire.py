@@ -192,13 +192,17 @@ def process_scraped_repos(filepath = "datafiles/data.json", remove_repos=[]):
     git_json['readme'] = git_json.readme_contents.str.lower()
     git_json['readme'] = [git_json.readme[i].replace(git_json.author[i].lower(), 'username') for i in range(0,len(git_json))]
     git_json['readme'] = [git_json.readme[i].replace(git_json.repo[i].lower(), 'reponame') for i in range(0,len(git_json))]
+    git_json['readme_len'] = git_json.readme.apply(len)
 
     return git_json
 
 
 def output_processed_repos(git_df, output_file='datafiles/outdata.json'):
     git_df.drop(columns=['readme_contents']).to_json(output_file, orient = 'columns')
-    json_chk = pd.read_json(output_file)
+    json_chk = pd.read_json(output_file).reset_index()
+    json_chk.index = json_chk.index.astype('int64')
+    json_chk.set_index('index', inplace=True)
+    json_chk.sort_index(inplace=True)
     return json_chk
 
 
