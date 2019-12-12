@@ -19,16 +19,14 @@ During the exploration, we answer the following questions:
 What are the most common words in READMEs?
 What does the distribution of IDFs look like for the most common words?
 Does the length of the README vary by programming language?
-Do different programming languages use a different number of unique words?
 
 
 Modeling
 
 
 In modeling, we transform our dataframe into a form that can be used in machine learning models.
-We fit several different models  using the TF-IDF values for each).
-Lastly, we build a function that takes in the text of a README file, and tries to predict the programming language.
-
+We fit several different models  using the TF-IDF values for each.
+Our best performing model has an accuracy of 50% compared to a basline model accuracy of 23%.
 
 *Required to Recreate our Findings:*
 1. Final.ipynb and python files included within this repository
