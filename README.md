@@ -27,8 +27,8 @@ Does the length of the README vary by programming language?
 
 
 In modeling, we transform our dataframe into a form that can be used in machine learning models.
-We fit several different models  using the TF-IDF values for each.
-Our best performing model has an accuracy of 50% compared to a basline model accuracy of 23%.
+We fit several different models using the TF-IDF values for each.
+Our best performing model has an accuracy of 54% compared to a basline model accuracy of 23%.
 
 ### *Required to Recreate our Findings:*
 1. Final.ipynb and python files included within this repository
